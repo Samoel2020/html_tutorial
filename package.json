@@ -1,0 +1,42 @@
+{
+  "name": "html_tutorial",
+  "version": "1.0.0",
+  "description": "First tuto",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samoel2020/html_tutorial.git"
+  },
+  "keywords": [
+    "HTML",
+    "Javascript"
+  ],
+  "author": "Samouel HMEDAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Samoel2020/html_tutorial/issues"
+  },
+  "homepage": "https://github.com/Samoel2020/html_tutorial#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "three": "^0.144.0"
+  }
+}
