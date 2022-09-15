@@ -52,7 +52,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       favicon: "./public/favicon.ico",
-      title: 'Webpack App',
+      title: 'Samouel App',
       filename: 'index.html',
       template: './public/template.html',
     }),
